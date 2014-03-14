@@ -15,6 +15,6 @@ class PlayerTest < MiniTest::Test
 
   def test_first_roll_uses_all_dice
     @player.roll
-    assert_equal @player.last_roll.size, Greed::Game::DIE
+    assert_equal @player.last_roll.size, Greed::DiceSet::DIE
   end
 end

@@ -6,14 +6,15 @@ module Greed
 
     def initialize(options={})
       @name = options[:name]
+      @dice = DiceSet.new
     end
 
-    def roll(die = Game::DIE)
-      @last_roll = []
+    def roll(die = Greed::DiceSet::DIE)
+      @dice.roll(die)
+    end
 
-      die.times do
-        @last_roll << rand(6) + 1
-      end
+    def last_roll
+      @dice.values
     end
   end
 end
