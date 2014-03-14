@@ -1,4 +1,4 @@
-require_relative '../test_helper.rb'
+require_relative '../test_helper'
 
 class PlayerTest < MiniTest::Test
   def setup
@@ -15,6 +15,6 @@ class PlayerTest < MiniTest::Test
 
   def test_first_roll_uses_all_dice
     @player.roll
-    assert_equal @player.last_roll.size, Greed::DiceSet::DIE
+    assert_equal 5, @player.last_roll.size
   end
 end

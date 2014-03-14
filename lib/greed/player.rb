@@ -9,7 +9,7 @@ module Greed
       @dice = DiceSet.new
     end
 
-    def roll(die = Greed::DiceSet::DIE)
+    def roll(die=@dice.die_count)
       @dice.roll(die)
     end
 

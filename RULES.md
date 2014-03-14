@@ -1,9 +1,7 @@
-= Playing Greed
+# Playing Greed
 
 Greed is a dice game played among 2 or more players, using 5
 six-sided dice.
-
-== Playing Greed
 
 Each player takes a turn consisting of one or more rolls of the dice.
 On the first roll of the game, a player rolls all five dice which are
@@ -24,11 +22,11 @@ points) or as a single 50 points, but not both in the same roll.
 
 Example Scoring
 
-   Throw       Score
-   ---------   ------------------
-   5 1 3 4 1   50 + 2 * 100 = 250
-   1 1 1 3 1   1000 + 100 = 1100
-   2 4 4 5 4   400 + 50 = 450
+    Throw       Score
+    ---------   ------------------
+    5 1 3 4 1   50 + 2 * 100 = 250
+    1 1 1 3 1   1000 + 100 = 1100
+    2 4 4 5 4   400 + 50 = 450
 
 The dice not contributing to the score are called the non-scoring
 dice.  "3" and "4" are non-scoring dice in the first example.  "3" is
@@ -46,21 +44,20 @@ also accumulated score for that turn. If a player decides to stop
 rolling before rolling a zero-point roll, then the accumulated points
 for the turn is added to his total score.
 
-== Getting "In The Game"
+## Getting "In The Game"
 
 Before a player is allowed to accumulate points, they must get at
 least 300 points in a single turn. Once they have achieved 300 points
 in a single turn, the points earned in that turn and each following
 turn will be counted toward their total score.
 
-== End Game
+## End Game
 
 Once a player reaches 3000 (or more) points, the game enters the final
 round where each of the other players gets one more turn. The winner
 is the player with the highest score after the final round.
 
-== References
+## References
 
-Greed is described on Wikipedia at
-http://en.wikipedia.org/wiki/Greed_(dice_game), however the rules are
-a bit different from the rules given here.
+Greed is described on [Wikipedia](http://en.wikipedia.org/wiki/Greed_(dice_game) "Greed")
+however the rules are a bit different from the rules given here.
