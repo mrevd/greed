@@ -1,0 +1,2 @@
+class InvalidNumberOfPlayers < Exception
+end
