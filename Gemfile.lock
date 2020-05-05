@@ -12,7 +12,7 @@ GEM
       celluloid (>= 0.15.0)
       nio4r (>= 0.5.0)
     coderay (1.1.0)
-    ffi (1.9.3)
+    ffi (1.12.2)
     formatador (0.2.4)
     guard (2.5.1)
       formatador (>= 0.2.4)
